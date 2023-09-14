@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <div class="click-event">
+      <h2>Click Events</h2>
+      <button class="btn">Click Me</button>
+      <p onClick="this.classList.add('red')">
+        Inline event is the old style
+      </p>
+    </div>
+
+    <div class="mouse-event">
+      <h2>Mouse Events</h2>
+      <button class="btn">Hit me</button>
+      <p class="mouse-el">
+        Circle to something
+      </p>
+    </div>
+
+    <div class="key-event">
+      <h2>Key Events</h2>
+      <form>
+        <input type="text" class="key-input">
+      </form>
+    </div>
+
+
+    <div class="event-ob">
+      <button>click me</button>
+      <h2>some heading</h2>
+    </div>
+
+    <div class="event-target">
+      <h2>Event target</h2>
+      <button>Fist Button</button>
+      <button><strong>Second</strong> Button</button>
+      <button>Third Button</button>
+    </div>
+
+    <div class="propagation">
+      <ul>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+      </ul>
+    </div>
+
+    <div class="event-p">
+      <h2>Event Propagation example</h2>
+      <button class="btn">Click me</button>
+    </div>
+
+    <div class="form-event">
+      <form action="" class="form">
+        <input type="text" class="name">
+        <input type="password" class="ppassword">
+        <input type="submit" class="submit">
+      </form>
+    </div>
+
+    <div class="dom-loaded">
+      <h2>DOMContentLoaded</h2>
+    </div>
+
+    <div class="load">
+      <img src="./image/pizza.jpg" alt="pizza">
+    </div>
+
+
+    <div class="width-heigth">
+      <button>click</button>
+      <dic class="rect"></dic>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+    <script src="./dom-events/click.js"></script>
+    <script src="./dom-events/mouse.js"></script>
+    <script src="./dom-events/key.js"></script>
+    <script src="./dom-events/eventOb.js"></script>
+    <script src="./dom-events/current-target.js"></script>
+    <script src="./dom-events/propagation.js"></script>
+    <script src="./dom-events/event-propagation.js"></script>
+    <script src="./dom-events/form.js"></script>
+    <script src="./dom-events/local-storage.js"></script>
+    <script src="./dom-events/local-storage--multi.js"></script>
+    <script src="./dom-events/setTimeout.js"></script>
+    <script src="./dom-events/setInterval.js"></script>
+    <script src="./more-events/DOMContentLoaded.js"></script>
+    <script src="./more-events/load.js"></script>
+    <script src="./more-events/scroll.js"></script>
+    <script src="./more-events/width-height.js"></script>
+    <script src="./more-events/resize.js"></script>
+  </body>
+</html>

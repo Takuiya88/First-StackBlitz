@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+.red {
+  background: red;
+  color: white;
+}
+
+.blue {
+  font-size: 3rem;
+  background: blue;
+  color: white;
+}
+
+.mouse-el {
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1;
+  padding: 2rem;
+  border: 2px solid salmon;
+  transition: all 0.2s ease;
+}
+
+
+.circle {
+  border-radius: 50%;
+  background: rgb(195, 98, 87);
+}
+
+.btn--target {
+  padding: 2rem;
+  background: salmon;
+}
